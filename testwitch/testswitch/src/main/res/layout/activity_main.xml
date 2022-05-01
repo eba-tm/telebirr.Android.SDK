@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="appid:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/appid_et"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="notifyUrl:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/notifyUrl_et"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="outTradeNo:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/outTradeNo_et"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="receiveCode:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/receiveCode_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="receiveName:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/receiveName_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="returnUrl:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/returnUrl_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="shortCode:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/shortCode_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="subject:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/subject_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="totalAmount:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/totalAmount_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="timeoutExpress:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/timeoutExpress_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="transactionNo:"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/transactionNo_et"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sdk"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/buttion_bg"
+            android:gravity="center"
+            android:text="SDK" />
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttion_bg"
+            android:gravity="center"
+            android:text="JUMP_APP" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</LinearLayout>
